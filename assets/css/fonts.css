@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Muli-Bold";
+    src: url("../fonts/muli/Muli-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Muli-BoldItalic";
+    src: url("../fonts/muli/Muli-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Muli-ExtraBold";
+    src: url("../fonts/muli/Muli-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Muli-ExtraLight";
+    src: url("../fonts/muli/Muli-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Muli-ExtraLightItalic";
+    src: url("../fonts/muli/Muli-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Muli-Italic";
+    src: url("../fonts/muli/Muli-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Muli-Light";
+    src: url("../fonts/muli/Muli-Light.ttf");
+}
+
+@font-face {
+    font-family: "Muli-LightItalic";
+    src: url("../fonts/muli/Muli-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Muli-Semi-BoldItalic";
+    src: url("../fonts/muli/Muli-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Muli-SemiBold";
+    src: url("../fonts/muli/Muli-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/muli/Muli.ttf");
+}
