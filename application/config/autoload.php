@@ -62,7 +62,8 @@ $autoload['libraries'] = array(
     'template',
     'session',
     'database',
-    'form_validation'
+    'form_validation',
+    'pexcel'
 );
 
 /*
