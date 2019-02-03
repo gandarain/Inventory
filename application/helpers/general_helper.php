@@ -247,7 +247,22 @@ function MOVE_TEMP_TO_REAL($temp_path, $type = 'file')
 
     }
 }
- /* Language Loader
+
+/**
+ * Available Language storage
+ * please put language encoding as index
+ * and language folder name as value
+ * @return array List of available language
+ */
+function AVAILABLE_LANGUAGE() {
+    return array(
+        'en' => 'english',
+        'id' => 'indonesian'
+    );
+}
+
+/**
+ * Language Loader
  * to decide which language this Project should use, default is en
  *
  * @param string $language_file, Language file to load, just put filename without _lang.php. 
