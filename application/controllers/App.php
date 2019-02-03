@@ -37,15 +37,6 @@ class App extends CI_Controller
                 if($flag !== true)
                     return JSONRES(_ERROR, $user);
 
-                // NOTE This is for API Login
-                // Save API key
-                // $plain = sprintf('%s:%s:%s', $user_data->username, $user_data->id, time());
-                // $key_values = array('app_key' => encrypt($plain));
-                // $key_filter = array('id' => $user_data->id);
-                // list($uflag, $umsg) = $this->m_general->insert_update('users', $key_values, $key_filter);
-                // if(!$uflag)
-                //     JSONRES(_ERROR, $umsg);
-
                 // Get Dashboard Access
                 $user_group = $this->m_user->get_user_groups(array('username' => $user->username));
 
