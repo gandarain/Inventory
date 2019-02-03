@@ -52,3 +52,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'app';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// ***** API Routes ***** //
+/**
+ * NOTE Why we use this?
+ * because with this kind of routes we can support api response message in multi language
+ * multi language has been provided automatically by Api Controller
+ * we just need adding language list in api_lang
+ */
+$route['api/(:any)/(:any)'] = 'api/$2';
+$route['other_api/(:any)/(:any)'] = 'other_api/$2';
+// ***** /API Routes ***** //
