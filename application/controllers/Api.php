@@ -59,37 +59,37 @@ class Api extends REST_Controller
         $xhr = $this->validate_http_data($http_data, $required_data);
 
         $where = array(
-            'userid' => $xhr['username'],
-            'passw' => encrypt($xhr['password'])
+            'username' => $xhr['username'],
+            'password' => encrypt($xhr['password'])
         );
 
-        $anggota = $this->m_general->get('anggota', $where, array('result' => 'row'));
+        $users = $this->m_general->get('users', $where, array('result' => 'row'));
 
-        if(!empty($anggota)) {
+        if(!empty($users)) {
             // Save api key
             $key_data = array(
-                'id' => $anggota->id,
-                'key' => encrypt($anggota->userid.":".$anggota->id.":".time()),
+                'id' => $users->id,
+                'key' => encrypt($users->username.":".$users->id.":".time()),
                 'date_created' => time()
             );
-            $key_filter = array('id' => $anggota->id);
+            $key_filter = array('id' => $users->id);
             list($flag, $msg) = $this->m_general->insert_update('keys', $key_data, $key_filter);
 
             if($flag) {
                 $login_data = array(
-                    'id' => $anggota->id,
-                    'nama' => $anggota->nama,
-                    'username' => $anggota->userid,
-                    'img' => IMAGE_PATH($anggota->fotonya, true),
+                    'id' => $users->id,
+                    'nama' => $users->nama,
+                    'username' => $users->username,
+                    'img' => IMAGE_PATH($users->fotonya, true),
                     'key' => $key_data['key'],
-                    'tgl_register' => DATE_FORMAT_($anggota->timer_reg),
-                    'status_anggota' => $anggota->status,
-                    'status_stockist' => $anggota->status_stokist,
-                    'paket_member' => $anggota->paket,
-                    'bulanan_bos' => $anggota->rangking,
+                    'tgl_register' => DATE_FORMAT_($users->timer_reg),
+                    'status_anggota' => $users->status,
+                    'status_stockist' => $users->status_stokist,
+                    'paket_member' => $users->paket,
+                    'bulanan_bos' => $users->rangking,
                     'tertinggi_bos' => '', // FIXME Masih belum paham
-                    'bulanan_ibos' => $anggota->peringkat,
-                    'tertinggi_ibos' => $anggota->peringkat_tertinggi
+                    'bulanan_ibos' => $users->peringkat,
+                    'tertinggi_ibos' => $users->peringkat_tertinggi
                 );
 
                 $this->_response(TRUE, $login_data);
@@ -107,7 +107,6 @@ class Api extends REST_Controller
         $required_data = array('username', 'password', 'email');
         $xhr = $this->validate_http_data($http_data);
 
-        // die(var_dump(isset($xhr->fullname)));
         $this->_response(true, 'testing');
     }
 
@@ -122,15 +121,15 @@ class Api extends REST_Controller
 
         // Get User
         $where = array(
-            'userid' => $xhr['username'],
-            'passw' => encrypt($xhr['old_password'])
+            'username' => $xhr['username'],
+            'password' => encrypt($xhr['old_password'])
         );
-        $anggota = $this->m_general->get('anggota', $where, array('result' => 'row'));
+        $users = $this->m_general->get('users', $where, array('result' => 'row'));
 
-        if(!empty($anggota)) {
+        if(!empty($users)) {
             // Update password
-            $values = array('passw' => encrypt($xhr['new_password']));
-            list($flag, $msg) = $this->m_general->update('anggota', $values, $where);
+            $values = array('password' => encrypt($xhr['new_password']));
+            list($flag, $msg) = $this->m_general->update('users', $values, $where);
 
             if($flag) {
                 $this->_response(TRUE, lang('msg_edit_success'));
@@ -160,7 +159,7 @@ class Api extends REST_Controller
             'result' => 'row'           
         );
 
-        $email = $this->m_general->get('anggota', $where, $options);
+        $email = $this->m_general->get('users', $where, $options);
 
         if(!empty($email))
         {
@@ -208,7 +207,7 @@ class Api extends REST_Controller
                 // var_dump($result);
                 // Update password
                 $values = array('passw' => encrypt($new_password));
-                list($flag, $msg) = $this->m_general->update('anggota', $values, $where);
+                list($flag, $msg) = $this->m_general->update('users', $values, $where);
 
                 if($flag) {
                     $this->_response(TRUE, lang('msg_edit_success'));
@@ -294,7 +293,7 @@ class Api extends REST_Controller
         $data_array = (array)$datajson;
         if(!empty($required_data)) {
             foreach ($required_data as $rd) {
-                if(!array_key_exists($rd, $data_array) OR !NOT_EMPTY($data_array[$rd])) {
+                if(!array_key_exists($rd, $data_array) OR !$this->not_empty($data_array[$rd])) {
                     $error = true;
                     break;
                 }
@@ -305,5 +304,16 @@ class Api extends REST_Controller
             $this->_response(FALSE, sprintf(lang('msg_request_data_required'), $rd));
         else
             return $data_array;
+    }
+
+    private function not_empty($data)
+    {
+        if(is_array($data)) {
+            return count($data) > 0;
+        } else {
+            $data = trim($data);
+
+            return isset($data) && $data != '';
+        }
     }
 }
