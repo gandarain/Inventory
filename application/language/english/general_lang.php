@@ -20,5 +20,8 @@ $lang['msg_login_invalid'] = 'Invalid Username or Password';
 $lang['msg_param_required'] = 'Params %s is required';
 //****** Pp *****//
 $lang['password'] = 'Password';
+//****** Ss *****//
+$lang['something_went_wrong'] = 'Oops, Something went wrong :(. %s';
+
 //****** Uu *****//
 $lang['username'] = 'Username';

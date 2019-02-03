@@ -58,41 +58,41 @@ class Api extends REST_Controller
         $required_data = array('username', 'password');
         $xhr = $this->validate_http_data($http_data, $required_data);
 
-        $where = array(
+        $this->load->model('m_user');
+        $filter = array(
             'username' => $xhr['username'],
             'password' => encrypt($xhr['password'])
         );
+        list($flag, $user) = $this->m_user->login($filter);
 
-        $users = $this->m_general->get('users', $where, array('result' => 'row'));
+        if(!empty($user)) {
+            if($flag !== true)
+                $this->_response(FALSE, $user);
 
-        if(!empty($users)) {
             // Save api key
+            // NOTE One user one key
             $key_data = array(
-                'id' => $users->id,
-                'key' => encrypt($users->username.":".$users->id.":".time()),
+                'username' => $user->username,
+                'app_key' => encrypt($user->username.":".$user->id.":".time()),
                 'date_created' => time()
             );
-            $key_filter = array('id' => $users->id);
+            $key_filter = array('username' => $user->username);
             list($flag, $msg) = $this->m_general->insert_update('keys', $key_data, $key_filter);
 
             if($flag) {
-                $login_data = array(
-                    'id' => $users->id,
-                    'nama' => $users->nama,
-                    'username' => $users->username,
-                    'img' => IMAGE_PATH($users->fotonya, true),
-                    'key' => $key_data['key'],
-                    'tgl_register' => DATE_FORMAT_($users->timer_reg),
-                    'status_anggota' => $users->status,
-                    'status_stockist' => $users->status_stokist,
-                    'paket_member' => $users->paket,
-                    'bulanan_bos' => $users->rangking,
-                    'tertinggi_bos' => '', // FIXME Masih belum paham
-                    'bulanan_ibos' => $users->peringkat,
-                    'tertinggi_ibos' => $users->peringkat_tertinggi
+                $user_info = array(
+                    'username'          => $user->username,
+                    'user_id'           => $user->id,
+                    'name'              => $user->name,
+                    'email'             => $user->email,
+                    'phonenumber'       => $user->phone,
+                    // 'address'           => $user->address,
+                    'profile_picture'   => $user->profile_picture,
+                    'utype'             => $user->utype,
+                    'app_key'           => $key_data['app_key']
                 );
 
-                $this->_response(TRUE, $login_data);
+                $this->_response(TRUE, $user_info);
             } else {
                 $this->_response(FALSE, sprintf(lang('something_went_wrong'), $msg));
             }
@@ -301,7 +301,7 @@ class Api extends REST_Controller
         }
 
         if($error === true)
-            $this->_response(FALSE, sprintf(lang('msg_request_data_required'), $rd));
+            $this->_response(FALSE, sprintf(lang('msg_param_required'), $rd));
         else
             return $data_array;
     }
