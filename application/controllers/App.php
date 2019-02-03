@@ -8,6 +8,9 @@ class App extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->model(array(
+			'm_user'
+		));
 		// $this->template->write_view('sidenavs', 'template/default_sidenavs', true);
 		// $this->template->write_view('navs', 'template/default_topnavs.php', true);
 		// $this->template->set_template('webcring');
@@ -16,6 +19,42 @@ class App extends CI_Controller
 
 	function index() {
 		$this->dashboard();
+	}
+
+	function login() {
+		$submit = $this->input->post('submit');
+
+		if($submit) {
+			$this->form_validation->set_rules('username', lang('username'), 'required');
+			$this->form_validation->set_rules('password', lang('password'), 'required');
+
+			if($this->form_validation->run() !== TRUE) {
+				return JSONRES(_ERROR, validation_errors());
+			}
+
+			$filter = array(
+				'username' => $this->input->post('username'),
+				'password' => encrypt($this->input->post('password'))
+			);
+			list($flag, $user) = $this->m_user->login($filter);
+
+			if(!empty($user)) {
+				if($flag !== true)
+					return JSONRES(_ERROR, $user);
+
+				// Store data to session
+				$this->session->set_userdata('user_info', (array)$user);
+				$addons = array('redirect' => base_url('app/dashboard'));
+				return JSONRES(_SUCCESS, sprintf(lang('greetings_login'), $user->name), $addons);
+			} else {
+				return JSONRES(_ERROR, lang('msg_login_invalid'));
+			}
+		}
+
+		$this->template->set_template('simple');
+		$this->template->write('title', lang('login'), TRUE);
+		$this->template->write_view('content', 'dashboard/front/login', array(), true);
+		$this->template->render();
 	}
 
 	function simple_template() {
