@@ -348,6 +348,7 @@ function showNotification(text, type = 0, title = '', customSetting = {}) {
         'icon': icon,
         'type': type,
         'width':'400px',
+        'styling': 'bootstrap3',
         'nonblock': {
             'nonblock': true
         },
