@@ -10,6 +10,11 @@
 		"irc": "irc://irc.freenode.net/codeigniter",
 		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
+	"config": {
+		"platform": {
+			"php": "5.5.15"
+		}
+	},
 	"require": {
 		"php": ">=5.2.4"
 	},
@@ -18,6 +23,7 @@
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*",
-		"phpunit/phpunit": "4.* || 5.*"
+		"phpunit/phpunit": "^4",
+		"kenjis/ci-phpunit-test": "^0.16.1"
 	}
 }
