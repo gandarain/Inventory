@@ -106,3 +106,19 @@ $template['default']['regions'] = array(
 $template['default']['parser'] = 'parser';
 $template['default']['parser_method'] = 'parse';
 $template['default']['parse_template'] = FALSE;
+
+$template['simple']['template'] = 'template/simple_template.php';
+$template['simple']['regions'] = array(
+   'title' => array('content' => array('Ajhoel Tragedy Template')),
+   'header',
+   'navs',
+   'sidenavs',
+   'content',
+   'footer' => array(
+        'content' => array('Ajhoel Tragedy &copy;2017'),
+    ),
+);
+
+$template['simple']['parser'] = 'parser';
+$template['simple']['parser_method'] = 'parse';
+$template['simple']['parse_template'] = FALSE;
