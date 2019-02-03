@@ -1,2 +1,3 @@
 *.lock
 application/logs/
+application/tests/build/logs/
