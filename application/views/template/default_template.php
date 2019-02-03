@@ -157,6 +157,14 @@
                 if ( $("#flash-message div.flash-message-text").html().length > 1 ) {
                     showNotification($("#flash-message div.flash-message-text").html(), 3);
                 }
+
+                $(".btn_logout").on('click', function(e) {
+                    if(confirm('<?php echo lang('dialog_logout') ?>')) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                });
             });
         </script>
     </body>

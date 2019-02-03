@@ -24,15 +24,15 @@
 				<ul class="nav side-menu">
 					<li><a><i class="fa fa-edit"></i> Home <span class="fa fa-chevron-down"></span></a>
 						<ul class="nav child_menu">
-							<li><a href="<?php echo base_url('app/index') ?>">Dashboard</a></li>
-							<li><a href="<?php echo base_url('app/simple_template') ?>">Simple Page</a></li>
+							<li><a href="<?php echo base_url('main') ?>">Dashboard</a></li>
+							<li><a href="<?php echo base_url('main/simple_template') ?>">Simple Page</a></li>
 						</ul>
 					</li>
 					<li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
 						<ul class="nav child_menu">
-							<li><a href="<?php echo base_url('app/form_ex') ?>">General Form</a></li>
-							<li><a href="<?php echo base_url('app/table_ex') ?>">Table</a></li>
-							<li><a href="<?php echo base_url('app/table_dyn_ex') ?>">Table Dynamics</a></li>
+							<li><a href="<?php echo base_url('main/form_ex') ?>">General Form</a></li>
+							<li><a href="<?php echo base_url('main/table_ex') ?>">Table</a></li>
+							<li><a href="<?php echo base_url('main/table_dyn_ex') ?>">Table Dynamics</a></li>
 						</ul>
 					</li>
 					<li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>

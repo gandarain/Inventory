@@ -13,7 +13,7 @@
 							<span>Settings</span></a>
 						</li>
 						<li><a href="javascript:;">Help</a></li>
-						<li><a href="javascript:;"><i class="fas fa-sign-out pull-right"></i>Logout</a></li>
+						<li><a href="<?php echo base_url('app/logout') ?>" class="btn_logout"><i class="fas fa-sign-out-alt pull-right"></i><?php echo lang('logout') ?></a></li>
 					</ul>
 				</li>
 			</ul>
