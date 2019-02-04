@@ -97,7 +97,7 @@ class Api extends REST_Controller
                 $this->_response(FALSE, sprintf(lang('something_went_wrong'), $msg));
             }
         } else {
-            $this->_response(FALSE, lang('invalid_login'));
+            $this->_response(FALSE, lang('msg_login_invalid'));
         }
     }
 
@@ -251,7 +251,6 @@ class Api extends REST_Controller
                 $message = $this->http_status_codes[$code];
             }
         }
-
         if($status === true && ($code == REST_Controller::HTTP_OK || $code == REST_Controller::HTTP_CREATED)) {
             $response = array(
                 'status' => $status,
