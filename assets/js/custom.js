@@ -1808,10 +1808,21 @@ if (typeof NProgress != 'undefined') {
             }, function(start, end, label) {
               // console.log(start.toISOString(), end.toISOString(), label);
             });
-            $('.date-picker').daterangepicker({
+            $('.birth-picker').daterangepicker({
                 singleDatePicker: true,
                 singleClasses: "picker_3",
                 showDropdowns: true,
+                autoUpdateInput: false,
+                locale: {
+                    format:'DD-MM-YYYY',
+                    cancelLabel: 'Clear'
+                }
+            }, function(start, end, label) {});
+
+            $('.date-picker').daterangepicker({
+                singleDatePicker: true,
+                singleClasses: "picker_3",
+                showDropdowns: false,
                 locale: {
                     format:'DD-MM-YYYY'
                 }

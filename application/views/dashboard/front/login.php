@@ -5,7 +5,7 @@
             <div class="clearfix">&nbsp;</div>
             <section class="login_content">
                 <form id="parsley-form" name="login_form" novalidate>
-                    <h1><?php echo lang('login_form') ?></h1>
+                    <h1><?php echo lang('form_login') ?></h1>
                     <div class="login_message"></div>
                     <div>
                         <input type="text" name="username" class="form-control" placeholder="<?php echo lang('username') ?>" required="required" />

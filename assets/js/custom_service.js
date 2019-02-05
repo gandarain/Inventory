@@ -414,24 +414,6 @@ function dtTablesButtons() {
 
 // ******************** JQUERY SCRIPT *********************** //
 // ************* DATEPICKER ************* //
-// $(".date-picker").datepicker({
-//     format:'dd-mm-yyyy',
-//     changeMonth: true,
-//     changeYear: true,
-//     autoclose: true,
-//     todayHighlight: true,
-//     todayBtn: true,
-//     orientation: 'bottom'
-// }).on('show', function() {
-//     if(!$(this).val())
-//         return $(this).datepicker('setDate', 'Now');
-// });
-// $('.input-daterange').datepicker({
-//     format: 'dd-mm-yyyy',
-//     autoclose:true,
-//     orientation: 'bottom'
-// });
-$(".date-picker, .input-daterange>input").attr('autocomplete', 'off');
 function openDatePicker(selector) {
     selector.daterangepicker({
         singleDatePicker: true,
@@ -445,4 +427,9 @@ function openDatePicker(selector) {
     });
 }
 // ************* /DATEPICKER ************* //
+
+// ***** On Ready Script ***** //
+$(document).ready(function() {
+    $(".date-picker, .birth-picker, .input-daterange>input").attr('autocomplete', 'off');
+});
 // ******************** /JQUERY SCRIPT *********************** //

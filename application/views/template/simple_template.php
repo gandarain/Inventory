@@ -9,6 +9,7 @@
 
     <title><?php echo $title ?></title>
 
+    <link href="<?php echo base_url('vendors/bootstrap-daterangepicker/daterangepicker.css') ?>" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="<?php echo base_url('vendors/bootstrap/dist/css/bootstrap.min.css') ?>" rel="stylesheet">
     <!-- Font Awesome -->
@@ -29,15 +30,21 @@
 
     <script src="<?php echo base_url('vendors/jquery/dist/jquery.min.js') ?>"></script>
     <script src="<?php echo base_url('vendors/bootstrap/dist/js/bootstrap.min.js') ?>"></script>
+
+    <script src="<?php echo base_url('vendors/DateJS/build/date.js') ?>"></script>
+        <!-- Bootstrap Date Range Picker -->
+    <script src="<?php echo base_url('vendors/moment/min/moment.min.js') ?>"></script>
+    <script src="<?php echo base_url('vendors/bootstrap-daterangepicker/daterangepicker.js') ?>"></script>
+
         <!-- PNotify -->
     <script src="<?php echo base_url('vendors/pnotify/dist/pnotify.js') ?>"></script>
     <script src="<?php echo base_url('vendors/pnotify/dist/pnotify.buttons.js') ?>"></script>
     <script src="<?php echo base_url('vendors/pnotify/dist/pnotify.nonblock.js') ?>"></script>
 
     <script src="<?php echo base_url('vendors/font-awesome/js/all.min.js') ?>" type="text/javascript"></script>
+
     <script src="<?php echo base_url('assets/js/custom.js') ?>"></script>
     <script src="<?php echo base_url('assets/js/custom_service.js') ?>"></script>
-
     </head>
 
     <body class="login">

@@ -73,6 +73,7 @@ class App extends CI_Controller
         $this->template->set_template('simple');
         $this->template->write('title', lang('login'), TRUE);
         $this->template->write_view('content', 'dashboard/front/login', array(), true);
+        // $this->template->write_view('content', 'dashboard/front/login1', array(), true);
         $this->template->render();
     }
 
