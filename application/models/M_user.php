@@ -58,4 +58,37 @@ class M_user extends CI_Model
 
         return $query->result();
     }
+
+    // **** USER TYPE **** //
+    function get_type($params = array())
+    {
+        if(!empty($params['id']))
+            $this->db->where('id', $params['id']);
+        if(!empty($params['name']))
+            $this->db->like('name', $params['name']);
+        if(!empty($params['code']))
+            $this->db->where('code', $params['code']);
+
+        $this->db->from('users_type');
+        $this->db->order_by('code ASC');
+        $query = $this->db->get();
+
+        if(!empty($params['id']))
+            return $query->row();
+        else
+            return $query->result();
+    }
+
+    function dd_utype($code = null)
+    {
+        $buffer = array('' => lang('greetings_select'));
+        $utype = $this->db->get('users_type')->result();
+
+        foreach ($utype as $it => $t) {
+            $buffer[$t->code] = $t->name;
+        }
+
+        return $buffer;
+    }
+    // **** /USER TYPE **** //
 }
