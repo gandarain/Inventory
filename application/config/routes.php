@@ -53,6 +53,11 @@ $route['default_controller'] = 'app';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+
+// ***** WEB Routes ***** //
+$route['dashboard'] = 'main/dashboard';
+// ***** /WEB Routes ***** //
+
 // ***** API Routes ***** //
 /**
  * NOTE Why we use this?
