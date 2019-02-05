@@ -25,10 +25,15 @@ class Acl
         $this->CI->load->helper(array('url', 'language'));
     }
 
-    public function getMySession() {
+    public function getMySession($return_value = false) {
         $this->mySession = $this->CI->session->userdata('user_info');
-        if(empty($this->mySession)) {       
-            redirect(''); // Redirect to Home Page
+
+        if($return_value === true) {
+            return (!empty($this->mySession));
+        } else {
+            if(empty($this->mySession)) {
+                redirect(''); // Redirect to Home Page
+            }
         }
     }
 
