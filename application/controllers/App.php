@@ -13,7 +13,12 @@ class App extends CI_Controller
     }
 
     function index() {
-        $this->login();
+        $have_session = $this->acl->getMySession(true);
+
+        if($have_session)
+            redirect('dashboard');
+        else
+            $this->login();
     }
 
     function login() {
@@ -46,6 +51,10 @@ class App extends CI_Controller
                 $special_access = !empty(array_filter($user_group, function($arr) {
                     return $arr->special_privilege == 1;
                 }));
+
+                if($dashboard_access !== true || $special_privilege !== true) {
+                    JSONRES(_WARNING, lang('msg_login_invalid'));
+                }
 
                 $user_info = array(
                     'username'          => $user->username,
