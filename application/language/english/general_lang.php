@@ -1,11 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$lang['appdev'] = '&copy;2019 All Rights Reserved. Ajhoel Tragedy';
+$lang['appdev'] = '&copy;2019 All Rights Reserved. Developed by PT. SKM BUANA MANDIRI';
 $lang['appname'] = 'My System Name';
 
 //****** Aa *****//\
 $lang['action'] = 'Action';
 $lang['address'] = 'Address';
+$lang['add_group'] = 'Add Group Access for %s';
 
 //****** Bb *****//
 $lang['birth'] = 'Birthdate';
@@ -19,6 +20,11 @@ $lang['btn_update'] = 'Save Changes';
 $lang['class_name'] = 'Class Name';
 $lang['code'] = 'Code';
 $lang['create_account'] = 'Create Account';
+$lang['crud_create'] = 'Create';
+$lang['crud_read'] = 'Read';
+$lang['crud_update'] = 'Update';
+$lang['crud_delete'] = 'Delete';
+$lang['crud_report'] = 'Report';
 
 //****** Dd *****//
 $lang['dashboard'] = 'Dashboard';
@@ -41,6 +47,8 @@ $lang['form_register'] = 'Registration Form';
 $lang['greetings_login'] = 'Welcome back <strong>%s</strong><br>';
 $lang['greetings_select'] = '- Please Select -';
 $lang['greetings_signup'] = 'Congratulations you are registered %s';
+$lang['groups'] = 'Groups';
+$lang['group_access_for_menu'] = 'Group access for %s';
 
 //****** Ll *****//
 $lang['list'] = 'List Data';

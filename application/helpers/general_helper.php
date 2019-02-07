@@ -34,6 +34,17 @@ function INFO_DELIMITER($message)
 }
 
 /**
+ * Load view and make it  able to test via unit test
+ */
+function LOAD_VIEW($view) {
+    if(!empty($_ENV['UNIT_TEST']) && $_ENV['UNIT_TEST'] === TRUE) {
+        return $view;
+    } else {
+        echo $view;
+    }
+}
+
+/**
  * Formatting Response into JSON (New format of JSON_RESPONSE())
  * Support for Unit testing mode
  *
