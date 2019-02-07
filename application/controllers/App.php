@@ -52,7 +52,7 @@ class App extends CI_Controller
                     return $arr->special_privilege == 1;
                 }));
 
-                if($dashboard_access !== true || $special_privilege !== true) {
+                if($dashboard_access !== true || $special_access !== true) {
                     JSONRES(_WARNING, lang('msg_login_invalid'));
                 }
 
