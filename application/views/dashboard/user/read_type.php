@@ -23,7 +23,7 @@
                     <div class="ln_solid"></div>
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <button type="button" class="btn btn-primary search-data"><i class="fas fa-search"></i> <?php echo lang('btn_search') ?></button>
+                            <button type="submit" class="btn btn-primary search-data"><i class="fas fa-search"></i> <?php echo lang('btn_search') ?></button>
                         </div>
                     </div>
                 </form>
@@ -71,7 +71,8 @@ $(document).ready(function() {
     $(".form-action-panel").trigger('heightChange');
 
     // Search Button
-    $(".search-data").on('click', function() {
+    $("form[name='search']").on('submit', function(e) {
+        e.preventDefault();
         let uri = '<?php echo base_url('user/read_type') ?>';
         let data = $("form[name='search']").serialize() + "&submit=1";
         let response = sendAjax(uri, data);

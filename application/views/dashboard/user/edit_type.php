@@ -4,13 +4,13 @@
         <input type="text" class="form-control" name="name" value="<?php echo $record->name ?>" required="required">
     </div>
     <div class="col-md-6 col-sm-6 col-xs-12">
-        <label class="control-label"><?php echo lang('code') ?></label> <span class="required">*</span></label>
+        <label class="control-label"><?php echo lang('code') ?> <span class="required">*</span></label>
         <input type="text" class="form-control" name="code" value="<?php echo $record->code ?>" required="required">
     </div>
     <div class="clearfix"></div>
     <div class="ln_solid"></div>
     <div class="form-group">
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-12 col-sm-12 col-xs-12">
             <button type="submit" class="btn btn-success"><i class="fas fa-edit"></i> <?php echo lang('btn_update') ?></button>
             <button type="button" class="btn btn-danger cancel"><i class="fas fa-undo"></i> <?php echo lang('btn_cancel') ?></button>
         </div>
