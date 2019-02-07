@@ -16,11 +16,13 @@ $lang['btn_submit'] = 'Submit';
 $lang['btn_update'] = 'Save Changes';
 
 //****** Cc *****//
+$lang['class_name'] = 'Class Name';
 $lang['code'] = 'Code';
 $lang['create_account'] = 'Create Account';
 
 //****** Dd *****//
 $lang['dashboard'] = 'Dashboard';
+$lang['description'] = 'Description';
 $lang['dialog_abandon_changes'] = 'Are you sure want to leave this operation?';
 $lang['dialog_delete'] = 'Are you sure want to delete this?';
 $lang['dialog_login'] = 'Already a member?';
@@ -47,6 +49,9 @@ $lang['logout'] = 'Log Out';
 
 //****** Mm *****//
 $lang['master'] = 'Master';
+$lang['menu'] = 'Menu';
+$lang['method_name'] = 'Method Name';
+$lang['msg_invalid_email'] = 'Invalid Email address';
 $lang['msg_login_invalid'] = 'Invalid Username or Password';
 $lang['msg_noaccess'] = 'You cannot access this website';
 $lang['msg_nopermission_menu'] = 'You have no Permission';
@@ -56,6 +61,7 @@ $lang['msg_op_read'] = "to perform <strong>Read</strong> Operation";
 $lang['msg_op_report'] = "to perform <strong>Read Report</strong>";
 $lang['msg_op_update'] = "to perform <strong>Edit</strong> Operation";
 $lang['msg_param_required'] = 'Params %s is required';
+$lang['msg_user_exists'] = '%s is already registered';
 
 //****** Nn *****//
 $lang['name'] = 'Name';
