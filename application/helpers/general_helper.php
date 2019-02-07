@@ -333,27 +333,27 @@ function UPDATE_iFLAG( $flag )
 {
     $CI =& get_instance();
     if( $flag )
-        return lang("msg_success_saved");
+        return lang("msg_save_success");
     else
-        return lang('msg_failed_saved').' '.$CI->db->_error_message();
+        return lang('msg_save_failed').' '.$CI->db->_error_message();
 }
 
 function INSERT_iFLAG( $flag )
 {
     $CI =& get_instance();
     if( $flag )
-        return lang("msg_success_saved");
+        return lang("msg_save_success");
     else
-        return lang('msg_failed_saved').' '.$CI->db->_error_message();
+        return lang('msg_save_failed').' '.$CI->db->_error_message();
 }
 
 function DELETE_iFLAG ( $flag )
 {
     $CI =& get_instance();
     if( $flag )
-        return lang('msg_success_delete');
+        return lang('msg_delete_success');
     else
-        return lang('msg_failed_delete').' '.$CI->db->_error_message();
+        return lang('msg_delete_failed').' '.$CI->db->_error_message();
 }
 
 function encrypt( $q )
@@ -389,13 +389,13 @@ function requestFromAjax() {
 function DD_ALLOW($index = null, $with_style = false)
 {
     $data_without_style = array(
-        0 => lang("NotAllow"),
-        1 => lang('Allow')
+        0 => lang("not_allow"),
+        1 => lang('allow')
     );
 
     $data_with_style = array(
-        0 => sprintf('<span class="red">%s</span>', lang('NotAllow')),
-        1 => sprintf('<span class="green">%s</span>', lang('Allow'))
+        0 => sprintf('<span class="red">%s</span>', lang('not_allow')),
+        1 => sprintf('<span class="green">%s</span>', lang('allow'))
     );
 
     if($with_style)
@@ -409,44 +409,23 @@ function DD_ALLOW($index = null, $with_style = false)
         return $data;
 }
 
-function DD_STATUS($index = null, $with_style = false)
-{
-    $data_without_style = array(
-        0 => lang('NoStock'),
-        1 => lang('LimitedStock'),
-        2 => lang('AlwaysAvailable')
-    );
-
-    $data = $data_without_style;
-    if(!is_null($index))
-        return $data[$index];
-    else
-        return $data;
-}
-
-function DD_ITEM_CONDITION($index = null, $with_style = false)
-{
-    $data_without_style = array(
-        1 => lang('NewItem'),
-        2 => lang('SecondItem')
-    );
-
-    $data = $data_without_style;
-    if(!is_null($index))
-        return $data[$index];
-    else
-        return $data;
-}
-
 function DD_STATUS_USER($index = null, $with_style = false)
 {
     $data_without_style = array(
-        0 => lang('Inactive'),
-        1 => lang('Active')
+        _ACTIVE => lang('status_active'),
+        _INACTIVE => lang('status_inactive'),
+    );
+    $data_with_style = array(
+        _ACTIVE => sprintf('<span class="green">%s</span>', lang('status_active')),
+        _INACTIVE => sprintf('<span class="red">%s</span>', lang('status_inactive')),
     );
 
-    $data = $data_without_style;
-    if(!is_null($index))
+    if($with_style)
+        $data = $data_with_style;
+    else
+        $data = $data_without_style;
+
+        if(!is_null($index))
         return $data[$index];
     else
         return $data;

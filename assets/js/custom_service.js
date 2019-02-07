@@ -415,6 +415,7 @@ function dtTablesButtons() {
 // ******************** JQUERY SCRIPT *********************** //
 // ************* DATEPICKER ************* //
 function openDatePicker(selector) {
+    selector.attr('autocomplete', 'off');
     selector.daterangepicker({
         singleDatePicker: true,
         singleClasses: "picker_3",
