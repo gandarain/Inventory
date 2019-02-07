@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $lang['appdev'] = '&copy;2019 All Rights Reserved. Developed by PT. SKM BUANA MANDIRI';
-$lang['appname'] = 'My System Name';
+$lang['appname'] = 'Property Strategy Systems';
 
 //****** Aa *****//\
 $lang['action'] = 'Action';
