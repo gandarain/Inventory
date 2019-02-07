@@ -99,7 +99,7 @@ $template['default']['regions'] = array(
    'sidenavs',
    'content',
    'footer' => array(
-        'content' => array('Ajhoel Tragedy &copy;2017'),
+        'content' => array(lang('appdev')),
     ),
 );
 
@@ -115,7 +115,7 @@ $template['simple']['regions'] = array(
    'sidenavs',
    'content',
    'footer' => array(
-        'content' => array('Ajhoel Tragedy &copy;2017'),
+        'content' => array(lang('appdev')),
     ),
 );
 

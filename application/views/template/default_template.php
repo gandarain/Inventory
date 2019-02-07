@@ -87,7 +87,8 @@
                 <!-- Footer Content -->
                 <footer>
                     <div class="pull-right">
-                        Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a> || <?php echo $footer; ?>
+                        <!-- Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a> ||  -->
+                        <?php echo $footer; ?>
                     </div>
                     <div class="clearfix"></div>
                 </footer>
