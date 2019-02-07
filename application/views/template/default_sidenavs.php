@@ -26,6 +26,7 @@
 					<li><a><i class="fas fa-user-secret"></i> <?php echo lang('master') ?> <span class="fa fa-chevron-down"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('user') ?>"><?php echo lang('user') ?></a></li>
+							<li><a href="<?php echo base_url('menu') ?>"><?php echo lang('menu') ?></a></li>
 							<li><a href="<?php echo base_url('user/read_type') ?>"><?php echo lang('user_type') ?></a></li>
 						</ul>
 					</li>
