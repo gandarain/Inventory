@@ -491,6 +491,7 @@ $config['compress_output'] = FALSE;
 | helper' page of the user guide for information regarding date handling.
 |
 */
+date_default_timezone_set('Asia/Jakarta');
 $config['time_reference'] = 'local';
 
 /*
