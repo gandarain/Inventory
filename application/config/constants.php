@@ -109,3 +109,12 @@ define('DEFAULT_DATE_FORMAT', 'd-m-Y');
 define('DEFAULT_DATETIME_FORMAT', 'd-m-Y H:i:s');
 define('_ACTIVE', 1);
 define('_INACTIVE', 0);
+
+/**
+ * User Type
+ * for more information see table User Type
+ */
+define('UTYPE_SUPER', '1');
+define('UTYPE_ADMIN', '2');
+define('UTYPE_DIRECTOR', '3');
+define('UTYPE_REGULAR', '90');
