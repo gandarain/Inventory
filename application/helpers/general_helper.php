@@ -522,3 +522,19 @@ function COMPARE_DATE($biggerDate, $smallerDate)
     else
         return false;
 }
+
+/**
+ * Validate a valid email
+ * @param String $subject - String to be validated as email
+ * @return Boolean Result of validation
+ */
+function _valid_email($subject)
+{
+    $subject = strtolower($subject);
+    $string = preg_match('/(^[A-Za-z]{1}\w*([._%~-]\w+)?)@\w+[._%~-]?\w+[.](\w*[^ ]+\w)\z/', $subject);
+
+    if(!$string)
+        return false;
+    else
+        return true;
+}

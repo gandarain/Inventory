@@ -11,6 +11,31 @@ class M_user extends CI_Model
     }
 
     /**
+     * Functions for some validation
+     */
+    function validate_register($params = array()) {
+        $unique_fields = array('username', 'email', 'phone');
+        $validate_message = '';
+        $success = false;
+
+        foreach ($unique_fields as $key => $value) {
+            $this->db->select('u.username, u.email, u.phone, u.name');
+            $this->db->from('users u');
+            $this->db->where($value, $params[$value]);
+            $query = $this->db->get()->result();
+
+            $success = empty($query);
+
+            if(!$success) {
+                $validate_message = sprintf(lang('msg_user_exists'), lang($value));
+                break; // Get out from the loop
+            }
+        }
+
+        return array($success, $validate_message);
+    }
+
+    /**
      * Login Query
      */
     public function login($params = array()) {

@@ -103,11 +103,26 @@ class Api extends REST_Controller
 
     function register_post()
     {
+        $this->load->model('m_user');
         $http_data = $this->post(null, true);
-        $required_data = array('username', 'password', 'email');
-        $xhr = $this->validate_http_data($http_data);
+        $required_data = array('username', 'name', 'password', 'email', 'phone');
+        $xhr = $this->validate_http_data($http_data, $required_data);
 
-        $this->_response(true, 'testing');
+        // validate email
+        if(!_valid_email($xhr['email']))
+            $this->_response(FALSE, lang('msg_invalid_email'));
+
+        // Validate username, phone & email
+        list($vsuccess, $vmsg) = $this->m_user->validate_register($xhr);
+        if(!$vsuccess)
+            $this->_response(FALSE, $vmsg);
+
+        $xhr['password'] = encrypt($xhr['password']);
+
+        // Insert into table users
+        list($iflag, $imsg) = $this->m_general->insert('users', $xhr);
+
+        $this->_response($iflag, $imsg);
     }
 
     /**
