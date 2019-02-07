@@ -18,7 +18,7 @@ class User extends CI_Controller
     // **** Master User Type Controller **** //
     function read_type()
     {
-        $this->acl->validate_read();
+        $this->acl->validate_read(null, $this->vclass_user_type);
         $data = array();
         $menu_name = lang('master').' '.lang('user_type');
 
@@ -37,8 +37,7 @@ class User extends CI_Controller
 
     function create_type()
     {
-        $this->acl->validate_create();
-        
+        $this->acl->validate_create(null, $this->vclass_user_type);
         
         if($this->input->post('submit'))
         {
@@ -57,7 +56,7 @@ class User extends CI_Controller
 
     function update_type($id)
     {
-        $this->acl->validate_update();
+        $this->acl->validate_update(null, $this->vclass_user_type);
 
         if($this->input->post('submit'))
         {
@@ -77,7 +76,7 @@ class User extends CI_Controller
 
     function delete_type($id)
     {
-        $this->acl->validate_delete();
+        $this->acl->validate_delete(null, $this->vclass_user_type);
         list($dflag, $dmsg) = $this->m_general->delete('users_type', array('id' => $id));
 
         JSONRES($dflag, $dmsg);
