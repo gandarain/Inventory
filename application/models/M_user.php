@@ -87,6 +87,9 @@ class M_user extends CI_Model
         if(!empty($params['status']))
             $this->db->where('u.status', $params['status']);
 
+        // Exclude current user
+        $this->db->where_not_in('u.id', $this->session->userdata('user_info')['user_id']);
+
         $query = $this->db->get();
 
         if(!empty($params['id']) || !empty($params['phone']))
