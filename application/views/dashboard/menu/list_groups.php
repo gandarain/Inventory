@@ -2,7 +2,7 @@
     <thead>
         <tr>
             <th width="40px">#</th>
-            <th><?php echo lang('user') ?></th>
+            <th><?php echo lang('groups') ?></th>
             <th class="text-center no-order"><?php echo lang('crud_create') ?></th>  
             <th class="text-center no-order"><?php echo lang('crud_read') ?></th>
             <th class="text-center no-order"><?php echo lang('crud_update') ?></th>
@@ -48,7 +48,7 @@
         let data={};
         data[$(this).attr('name')]= akses;
 
-        let target = '<?php echo base_url('menu/update_acl') ?>/' + $(this).val();
+        let target = '<?php echo base_url('menu/update_privilege') ?>/' + $(this).val();
         let response = sendAjax(target, data);
     });
 </script>

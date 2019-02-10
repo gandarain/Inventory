@@ -5,8 +5,7 @@
  */
 class Menu extends CI_Controller
 {
-    function __construct()
-    {
+    function __construct() {
         parent::__construct();
         // Prepare layout except content
         LOAD_NAVBAR(lang('master').' '.lang('menu'));
@@ -17,13 +16,11 @@ class Menu extends CI_Controller
         ));
     }
 
-    function index()
-    {
+    function index() {
         $this->acl->validate_read();
         $data = array();
 
-        if($this->input->post('submit'))
-        {
+        if($this->input->post('submit')) {
             unset($_POST['submit']);
             $data['records'] = $this->m_menu->get($this->input->post());
             echo $this->load->view('dashboard/menu/list_data', $data, TRUE);
@@ -34,12 +31,10 @@ class Menu extends CI_Controller
         $this->template->render();
     }
 
-    function create()
-    {
+    function create() {
         $this->acl->validate_create();
 
-        if($this->input->post('submit'))
-        {
+        if($this->input->post('submit')) {
             unset($_POST['submit']);
 
             list($iflag, $imsg) = $this->m_general->insert('menu', $this->input->post());
@@ -52,12 +47,10 @@ class Menu extends CI_Controller
         die();
     }
 
-    function update($id)
-    {
+    function update($id) {
         $this->acl->validate_update();
 
-        if($this->input->post('submit'))
-        {
+        if($this->input->post('submit')) {
             // Do Update
             unset($_POST['submit']);
 
@@ -72,8 +65,7 @@ class Menu extends CI_Controller
         die();
     }
 
-    function delete($id)
-    {
+    function delete($id) {
         $this->acl->validate_delete();
         list($dflag, $dmsg) = $this->m_general->delete('menu', array('id' => $id));
 
@@ -83,8 +75,7 @@ class Menu extends CI_Controller
     /**
      * Groups Operation
      */
-    function show_groups($menu_id)
-    {
+    function show_groups($menu_id) {
         $this->acl->validate_read();
         $data['records'] = $this->m_menu->get_groups(array('menu_id' => $menu_id));
 
@@ -92,8 +83,7 @@ class Menu extends CI_Controller
         return LOAD_VIEW($view);
     }
 
-    function delete_group()
-    {
+    function delete_group() {
         $this->acl->validate_delete();
         unset($_POST['submit']);
         list($dflag, $dmsg) = $this->m_general->delete('groups_acl', $this->input->post());
@@ -101,13 +91,11 @@ class Menu extends CI_Controller
         return JSONRES($dflag, $dmsg);
     }
 
-    function add_group($menu_id)
-    {
+    function add_group($menu_id) {
         $this->acl->validate_update();
         $submit = $this->input->post('submit');
         
-        if($submit)
-        {
+        if($submit) {
             unset($_POST['submit']);
 
             // Insert or update, to minimize redundancy
@@ -126,11 +114,9 @@ class Menu extends CI_Controller
         return LOAD_VIEW($view);
     }
 
-    function update_acl($id_acl)
-    {
+    function update_privilege($id_acl) {
         $this->acl->validate_update();
-        if($this->input->post())
-        {
+        if($this->input->post()) {
             list($uflag, $umsg) = $this->m_general->update('groups_acl', $this->input->post(), array('id' => $id_acl));
 
             return JSONRES($uflag, $umsg);
