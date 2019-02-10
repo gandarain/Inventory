@@ -8,6 +8,8 @@ $lang['action'] = 'Action';
 $lang['add'] = 'Add';
 $lang['address'] = 'Address';
 $lang['add_group'] = 'Add Group Access for %s';
+$lang['add_user_for'] = 'Add User for %s';
+$lang['add_menu_for'] = 'Add Menu for %s';
 $lang['allow'] = 'Allowed';
 
 //****** Bb *****//
@@ -39,6 +41,7 @@ $lang['dialog_delete'] = 'Are you sure want to delete this?';
 $lang['dialog_login'] = 'Already a member?';
 $lang['dialog_logout'] = 'Are you sure want to logout?';
 $lang['dialog_signup'] = 'New to site?';
+$lang['do_something'] = 'Do something';
 
 //****** Ee *****//
 $lang['email'] = 'Email';
@@ -51,6 +54,7 @@ $lang['form_register'] = 'Registration Form';
 //****** Gg *****//
 $lang['greetings_login'] = 'Welcome back <strong>%s</strong><br>';
 $lang['greetings_select'] = '- Please Select -';
+$lang['greetings_select1'] = 'Please select %s';
 $lang['greetings_signup'] = 'Congratulations you are registered %s';
 $lang['groups'] = 'Groups';
 $lang['group_access_for_menu'] = 'Group access for %s';
@@ -66,6 +70,7 @@ $lang['logout'] = 'Log Out';
 //****** Mm *****//
 $lang['master'] = 'Master';
 $lang['menu'] = 'Menu';
+$lang['menu_access_for'] = 'Menu access for %s';
 $lang['method_name'] = 'Method Name';
 $lang['msg_delete_failed'] = 'Data can not be deleted';
 $lang['msg_delete_success'] = 'Data has been deleted';
@@ -97,6 +102,7 @@ $lang['phone'] = 'Phone';
 //****** Ss *****//
 $lang['search'] = 'Search';
 $lang['something_went_wrong'] = 'Oops, Something went wrong :(. %s';
+$lang['special_privilege'] = 'Special Privilege';
 $lang['status'] = 'Status';
 $lang['status_active'] = 'Active';
 $lang['status_inactive'] = 'Inactive';
@@ -105,4 +111,8 @@ $lang['status_inactive'] = 'Inactive';
 $lang['user'] = 'User';
 $lang['username'] = 'Username';
 $lang['user_group_for'] = 'Group for %s';
+$lang['user_list_of'] = 'List User of %s';
 $lang['user_type'] = 'User Type';
+
+//****** Ww *****//
+$lang['with_selected'] = 'with selected';
