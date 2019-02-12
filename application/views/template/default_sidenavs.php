@@ -23,7 +23,7 @@
 				<h3>General</h3>
 				<ul class="nav side-menu">
 					<li><a href="<?php echo base_url('dashboard') ?>"><i class="fas fa-tachometer-alt"></i> <?php echo lang('dashboard') ?></a></li>
-					<li><a><i class="fas fa-user-secret"></i> <?php echo lang('master') ?> <span class="fas fa-chevron-down"></span></a>
+					<li><a><i class="fas fa-user-secret"></i> <?php echo lang('master') ?> <span class="fas fa-chevron-down pull-right"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('user') ?>"><?php echo lang('user') ?></a></li>
 							<li><a href="<?php echo base_url('menu') ?>"><?php echo lang('menu') ?></a></li>
@@ -31,22 +31,22 @@
 							<li><a href="<?php echo base_url('user/read_type') ?>"><?php echo lang('user_type') ?></a></li>
 						</ul>
 					</li>
-					<li><a><i class="fas fa-edit"></i> Home <span class="fas fa-chevron-down"></span></a>
+					<li><a><i class="fas fa-edit"></i> Home <span class="fas fa-chevron-down pull-right"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('main/simple_template') ?>">Simple Page</a></li>
 						</ul>
 					</li>
-					<li><a><i class="fas fa-edit"></i> Forms <span class="fas fa-chevron-down"></span></a>
+					<li><a><i class="fas fa-edit"></i> Forms <span class="fas fa-chevron-down pull-right"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('main/form_ex') ?>">General Form</a></li>
 							<li><a href="<?php echo base_url('main/table_ex') ?>">Table</a></li>
 							<li><a href="<?php echo base_url('main/table_dyn_ex') ?>">Table Dynamics</a></li>
 						</ul>
 					</li>
-					<li><a><i class="fas fa-sitemap"></i> Multilevel Menu <span class="fas fa-chevron-down"></span></a>
+					<li><a><i class="fas fa-sitemap"></i> Multilevel Menu <span class="fas fa-chevron-down pull-right"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="#level1">Menu 1</a></li>
-							<li><a>Menu 2 <span class="fas fa-chevron-down"></span></a>
+							<li><a>Menu 2 <span class="fas fa-chevron-down pull-right"></span></a>
 								<ul class="nav child_menu">
 									<li class="sub_menu"><a href="#level2_1">Menu 2.1</a></li>
 									<li><a href="#level2_2">Menu 2.2</a></li>
