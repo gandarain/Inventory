@@ -55,6 +55,7 @@ $lang['form_register'] = 'Registration Form';
 $lang['greetings_login'] = 'Welcome back <strong>%s</strong><br>';
 $lang['greetings_select'] = '- Please Select -';
 $lang['greetings_select1'] = 'Please select %s';
+$lang['greetings_sidebar'] = 'Welcome,';
 $lang['greetings_signup'] = 'Congratulations you are registered %s';
 $lang['groups'] = 'Groups';
 $lang['group_access_for_menu'] = 'Group access for %s';
