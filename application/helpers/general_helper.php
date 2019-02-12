@@ -335,7 +335,7 @@ function UPDATE_iFLAG( $flag )
     if( $flag )
         return lang("msg_save_success");
     else
-        return lang('msg_save_failed').' '.$CI->db->_error_message();
+        return lang('msg_save_failed').' '.$CI->db->error()['message'];
 }
 
 function INSERT_iFLAG( $flag )
@@ -344,7 +344,7 @@ function INSERT_iFLAG( $flag )
     if( $flag )
         return lang("msg_save_success");
     else
-        return lang('msg_save_failed').' '.$CI->db->_error_message();
+        return lang('msg_save_failed').' '.$CI->db->error()['message'];
 }
 
 function DELETE_iFLAG ( $flag )
@@ -353,7 +353,7 @@ function DELETE_iFLAG ( $flag )
     if( $flag )
         return lang('msg_delete_success');
     else
-        return lang('msg_delete_failed').' '.$CI->db->_error_message();
+        return lang('msg_delete_failed').' '.$CI->db->error()['message'];
 }
 
 function encrypt( $q )
