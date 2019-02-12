@@ -15,7 +15,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fas fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-times"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -74,7 +74,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fas fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-times"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -134,7 +134,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fas fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-times"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -192,7 +192,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fas fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-times"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -252,7 +252,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fas fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-times"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
