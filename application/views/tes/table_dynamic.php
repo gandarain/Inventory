@@ -4,10 +4,10 @@
 			<div class="x_title">
 				<h2>Default Example <small>Users</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -15,7 +15,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -505,10 +505,10 @@
 			<div class="x_title">
 				<h2>Plus Table Design</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -516,7 +516,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -1180,10 +1180,10 @@
 			<div class="x_title">
 				<h2>Button Example <small>Users</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -1191,7 +1191,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -1681,10 +1681,10 @@
 			<div class="x_title">
 				<h2>Fixed Header Example <small>Users</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -1692,7 +1692,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -2182,10 +2182,10 @@
 			<div class="x_title">
 				<h2>KeyTable example <small>Users</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -2193,7 +2193,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -2690,10 +2690,10 @@
 			<div class="x_title">
 				<h2>Responsive example<small>Users</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -2701,7 +2701,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>

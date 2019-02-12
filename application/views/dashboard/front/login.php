@@ -21,7 +21,7 @@
                     <div class="separator">
                         <div class="clearfix"></div>
                         <div>
-                            <h1><i class="fa fa-paw"></i> <?php echo lang('appname') ?></h1>
+                            <h1><i class="fas fa-paw"></i> <?php echo lang('appname') ?></h1>
                             <p><?php echo lang('appdev').' '.lang('appname') ?></p>
                         </div>
                     </div>

@@ -5,10 +5,10 @@
 			<div class="x_title">
 				<h2>Form Design <small>different form elements</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -16,7 +16,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -86,10 +86,10 @@
 			<div class="x_title">
 				<h2>Form Design <small>different form elements</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -97,7 +97,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -108,22 +108,22 @@
 
 					<div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
 						<input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="First Name">
-						<span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+						<span class="fas fa-user form-control-feedback left" aria-hidden="true"></span>
 					</div>
 
 					<div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
 						<input type="text" class="form-control" id="inputSuccess3" placeholder="Last Name">
-						<span class="fa fa-user form-control-feedback right" aria-hidden="true"></span>
+						<span class="fas fa-user form-control-feedback right" aria-hidden="true"></span>
 					</div>
 
 					<div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
 						<input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-						<span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
+						<span class="fas fa-envelope form-control-feedback left" aria-hidden="true"></span>
 					</div>
 
 					<div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
 						<input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-						<span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
+						<span class="fas fa-phone form-control-feedback right" aria-hidden="true"></span>
 					</div>
 
 					<div class="form-group">
@@ -168,10 +168,10 @@
 			<div class="x_title">
 				<h2>Star Rating</h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -179,7 +179,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -201,10 +201,10 @@
 			<div class="x_title">
 				<h2>Registration Form <small>Click to validate</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -212,7 +212,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -278,10 +278,10 @@
 			<div class="x_title">
 				<h2>Form Basic Elements <small>different form elements</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -289,7 +289,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -597,10 +597,10 @@
 			<div class="x_title">
 				<h2>Form Buttons <small>Sessions</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -608,7 +608,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -681,10 +681,10 @@
 			<div class="x_title">
 				<h2>Text areas<small>Sessions</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -692,7 +692,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -701,13 +701,13 @@
 				<div id="alerts"></div>
 				<div class="btn-toolbar editor" data-role="editor-toolbar" data-target="#editor-one">
 					<div class="btn-group">
-						<a class="btn dropdown-toggle" data-toggle="dropdown" title="Font"><i class="fa fa-font"></i><b class="caret"></b></a>
+						<a class="btn dropdown-toggle" data-toggle="dropdown" title="Font"><i class="fas fa-font"></i><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 						</ul>
 					</div>
 
 					<div class="btn-group">
-						<a class="btn dropdown-toggle" data-toggle="dropdown" title="Font Size"><i class="fa fa-text-height"></i>&nbsp;<b class="caret"></b></a>
+						<a class="btn dropdown-toggle" data-toggle="dropdown" title="Font Size"><i class="fas fa-text-height"></i>&nbsp;<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li>
 								<a data-edit="fontSize 5">
@@ -728,43 +728,43 @@
 					</div>
 
 					<div class="btn-group">
-						<a class="btn" data-edit="bold" title="Bold (Ctrl/Cmd+B)"><i class="fa fa-bold"></i></a>
-						<a class="btn" data-edit="italic" title="Italic (Ctrl/Cmd+I)"><i class="fa fa-italic"></i></a>
-						<a class="btn" data-edit="strikethrough" title="Strikethrough"><i class="fa fa-strikethrough"></i></a>
-						<a class="btn" data-edit="underline" title="Underline (Ctrl/Cmd+U)"><i class="fa fa-underline"></i></a>
+						<a class="btn" data-edit="bold" title="Bold (Ctrl/Cmd+B)"><i class="fas fa-bold"></i></a>
+						<a class="btn" data-edit="italic" title="Italic (Ctrl/Cmd+I)"><i class="fas fa-italic"></i></a>
+						<a class="btn" data-edit="strikethrough" title="Strikethrough"><i class="fas fa-strikethrough"></i></a>
+						<a class="btn" data-edit="underline" title="Underline (Ctrl/Cmd+U)"><i class="fas fa-underline"></i></a>
 					</div>
 
 					<div class="btn-group">
-						<a class="btn" data-edit="insertunorderedlist" title="Bullet list"><i class="fa fa-list-ul"></i></a>
-						<a class="btn" data-edit="insertorderedlist" title="Number list"><i class="fa fa-list-ol"></i></a>
-						<a class="btn" data-edit="outdent" title="Reduce indent (Shift+Tab)"><i class="fa fa-dedent"></i></a>
-						<a class="btn" data-edit="indent" title="Indent (Tab)"><i class="fa fa-indent"></i></a>
+						<a class="btn" data-edit="insertunorderedlist" title="Bullet list"><i class="fas fa-list-ul"></i></a>
+						<a class="btn" data-edit="insertorderedlist" title="Number list"><i class="fas fa-list-ol"></i></a>
+						<a class="btn" data-edit="outdent" title="Reduce indent (Shift+Tab)"><i class="fas fa-dedent"></i></a>
+						<a class="btn" data-edit="indent" title="Indent (Tab)"><i class="fas fa-indent"></i></a>
 					</div>
 
 					<div class="btn-group">
-						<a class="btn" data-edit="justifyleft" title="Align Left (Ctrl/Cmd+L)"><i class="fa fa-align-left"></i></a>
-						<a class="btn" data-edit="justifycenter" title="Center (Ctrl/Cmd+E)"><i class="fa fa-align-center"></i></a>
-						<a class="btn" data-edit="justifyright" title="Align Right (Ctrl/Cmd+R)"><i class="fa fa-align-right"></i></a>
-						<a class="btn" data-edit="justifyfull" title="Justify (Ctrl/Cmd+J)"><i class="fa fa-align-justify"></i></a>
+						<a class="btn" data-edit="justifyleft" title="Align Left (Ctrl/Cmd+L)"><i class="fas fa-align-left"></i></a>
+						<a class="btn" data-edit="justifycenter" title="Center (Ctrl/Cmd+E)"><i class="fas fa-align-center"></i></a>
+						<a class="btn" data-edit="justifyright" title="Align Right (Ctrl/Cmd+R)"><i class="fas fa-align-right"></i></a>
+						<a class="btn" data-edit="justifyfull" title="Justify (Ctrl/Cmd+J)"><i class="fas fa-align-justify"></i></a>
 					</div>
 
 					<div class="btn-group">
-						<a class="btn dropdown-toggle" data-toggle="dropdown" title="Hyperlink"><i class="fa fa-link"></i></a>
+						<a class="btn dropdown-toggle" data-toggle="dropdown" title="Hyperlink"><i class="fas fa-link"></i></a>
 						<div class="dropdown-menu input-append">
 							<input class="span2" placeholder="URL" type="text" data-edit="createLink" />
 							<button class="btn" type="button">Add</button>
 						</div>
-						<a class="btn" data-edit="unlink" title="Remove Hyperlink"><i class="fa fa-cut"></i></a>
+						<a class="btn" data-edit="unlink" title="Remove Hyperlink"><i class="fas fa-cut"></i></a>
 					</div>
 
 					<div class="btn-group">
-						<a class="btn" title="Insert picture (or just drag & drop)" id="pictureBtn"><i class="fa fa-picture-o"></i></a>
+						<a class="btn" title="Insert picture (or just drag & drop)" id="pictureBtn"><i class="fas fa-picture-o"></i></a>
 						<input type="file" data-role="magic-overlay" data-target="#pictureBtn" data-edit="insertImage" />
 					</div>
 
 					<div class="btn-group">
-						<a class="btn" data-edit="undo" title="Undo (Ctrl/Cmd+Z)"><i class="fa fa-undo"></i></a>
-						<a class="btn" data-edit="redo" title="Redo (Ctrl/Cmd+Y)"><i class="fa fa-repeat"></i></a>
+						<a class="btn" data-edit="undo" title="Undo (Ctrl/Cmd+Z)"><i class="fas fa-undo"></i></a>
+						<a class="btn" data-edit="redo" title="Redo (Ctrl/Cmd+Y)"><i class="fas fa-repeat"></i></a>
 					</div>
 				</div>
 
@@ -788,10 +788,10 @@
 			<div class="x_title">
 				<h2>Form Input Grid <small>form input </small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -799,7 +799,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -931,10 +931,10 @@
 			<div class="x_title">
 				<h2>Form Design <small>different form elements</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -942,7 +942,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>

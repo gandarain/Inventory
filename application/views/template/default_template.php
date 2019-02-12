@@ -119,7 +119,7 @@
         <script src="<?php echo base_url('vendors/jqvmap/dist/jquery.vmap.js') ?>"></script>
         <script src="<?php echo base_url('vendors/jqvmap/dist/maps/jquery.vmap.world.js') ?>"></script>
         <script src="<?php echo base_url('vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') ?>"></script>
-        <script src="<?php echo base_url('vendors/font-awesome/js/all.min.js') ?>" type="text/javascript"></script>
+        <!-- <script src="<?php echo base_url('vendors/font-awesome/js/all.min.js') ?>" type="text/javascript"></script> -->
 
         <script src="<?php echo base_url('vendors/DateJS/build/date.js') ?>"></script>
             <!-- Bootstrap Date Range Picker -->

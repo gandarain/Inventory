@@ -9,7 +9,7 @@
 				</div>
 				<div class="col-md-6">
 					<div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
-						<i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+						<i class="glyphicon glyphicon-calendar fas fa-calendar"></i>
 						<span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
 					</div>
 				</div>
@@ -77,10 +77,10 @@
 			<div class="x_title">
 				<h2>App Versions</h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -88,7 +88,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -186,10 +186,10 @@
 			<div class="x_title">
 				<h2>Device Usage</h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -197,7 +197,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -225,31 +225,31 @@
 							<table class="tile_info">
 								<tr>
 									<td>
-										<p><i class="fa fa-square blue"></i>IOS </p>
+										<p><i class="fas fa-square blue"></i>IOS </p>
 									</td>
 									<td>30%</td>
 								</tr>
 								<tr>
 									<td>
-										<p><i class="fa fa-square green"></i>Android </p>
+										<p><i class="fas fa-square green"></i>Android </p>
 									</td>
 									<td>10%</td>
 								</tr>
 								<tr>
 									<td>
-										<p><i class="fa fa-square purple"></i>Blackberry </p>
+										<p><i class="fas fa-square purple"></i>Blackberry </p>
 									</td>
 									<td>20%</td>
 								</tr>
 								<tr>
 									<td>
-										<p><i class="fa fa-square aero"></i>Symbian </p>
+										<p><i class="fas fa-square aero"></i>Symbian </p>
 									</td>
 									<td>15%</td>
 								</tr>
 								<tr>
 									<td>
-										<p><i class="fa fa-square red"></i>Others </p>
+										<p><i class="fas fa-square red"></i>Others </p>
 									</td>
 									<td>30%</td>
 								</tr>
@@ -267,10 +267,10 @@
 			<div class="x_title">
 				<h2>Quick Settings</h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -278,7 +278,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -286,17 +286,17 @@
 			<div class="x_content">
 				<div class="dashboard-widget-content">
 					<ul class="quick-list">
-						<li><i class="fa fa-calendar-o"></i><a href="#">Settings</a>
+						<li><i class="fas fa-calendar-o"></i><a href="#">Settings</a>
 						</li>
-						<li><i class="fa fa-bars"></i><a href="#">Subscription</a>
+						<li><i class="fas fa-bars"></i><a href="#">Subscription</a>
 						</li>
-						<li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
-						<li><i class="fa fa-line-chart"></i><a href="#">Achievements</a>
+						<li><i class="fas fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
+						<li><i class="fas fa-line-chart"></i><a href="#">Achievements</a>
 						</li>
-						<li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
-						<li><i class="fa fa-line-chart"></i><a href="#">Achievements</a>
+						<li><i class="fas fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
+						<li><i class="fas fa-line-chart"></i><a href="#">Achievements</a>
 						</li>
-						<li><i class="fa fa-area-chart"></i><a href="#">Logout</a>
+						<li><i class="fas fa-area-chart"></i><a href="#">Logout</a>
 						</li>
 					</ul>
 
@@ -322,10 +322,10 @@
 			<div class="x_title">
 				<h2>Recent Activities <small>Sessions</small></h2>
 				<ul class="nav navbar-right panel_toolbox">
-					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Settings 1</a>
 							</li>
@@ -333,7 +333,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					<li><a class="close-link"><i class="fas fa-close"></i></a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -416,10 +416,10 @@
 					<div class="x_title">
 						<h2>Visitors location <small>geo-presentation</small></h2>
 						<ul class="nav navbar-right panel_toolbox">
-							<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+							<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="#">Settings 1</a>
 									</li>
@@ -427,7 +427,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a class="close-link"><i class="fa fa-close"></i></a>
+							<li><a class="close-link"><i class="fas fa-close"></i></a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -478,10 +478,10 @@
 					<div class="x_title">
 						<h2>To Do List <small>Sample tasks</small></h2>
 						<ul class="nav navbar-right panel_toolbox">
-							<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+							<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="#">Settings 1</a>
 									</li>
@@ -489,7 +489,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a class="close-link"><i class="fa fa-close"></i></a>
+							<li><a class="close-link"><i class="fas fa-close"></i></a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -547,10 +547,10 @@
 					<div class="x_title">
 						<h2>Daily active users <small>Sessions</small></h2>
 						<ul class="nav navbar-right panel_toolbox">
-							<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+							<li><a class="collapse-link"><i class="fas fa-chevron-up"></i></a>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fas fa-wrench"></i></a>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="#">Settings 1</a>
 									</li>
@@ -558,7 +558,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a class="close-link"><i class="fa fa-close"></i></a>
+							<li><a class="close-link"><i class="fas fa-close"></i></a>
 							</li>
 						</ul>
 						<div class="clearfix"></div>

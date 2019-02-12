@@ -131,7 +131,7 @@ function PRINT_ERROR($message)
 
 function PRINT_SUCCESS($message)
 {
-    $error_string = '<div class="col-lg-12"><div class="alert alert-success fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>'.$message.' <i class="fa fa-refresh fa-spin"></i></div></div>';
+    $error_string = '<div class="col-lg-12"><div class="alert alert-success fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>'.$message.' <i class="fas fa-refresh fa-spin"></i></div></div>';
 
     return $error_string;
 }

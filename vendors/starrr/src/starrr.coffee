@@ -5,8 +5,8 @@
       rating: undefined
       max: 5
       readOnly: false
-      emptyClass: 'fa fa-star-o'
-      fullClass: 'fa fa-star'
+      emptyClass: 'far fa-star'
+      fullClass: 'fas fa-star'
       change: (e, value) ->
 
     constructor: ($el, options) ->
