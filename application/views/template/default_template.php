@@ -22,6 +22,8 @@
         <link href="<?php echo base_url('vendors/jqvmap/dist/jqvmap.min.css') ?>" rel="stylesheet">
         <link href="<?php echo base_url('vendors/bootstrap-daterangepicker/daterangepicker.css') ?>" rel="stylesheet">
         <link href="<?php echo base_url('vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css') ?>" rel="stylesheet">
+        <link href="<?php echo base_url('vendors/bootstrap-multiselect/bootstrap-multiselect.css') ?>" rel="stylesheet">
+        <link href="<?php echo base_url('vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css') ?>" rel="stylesheet">
             <!-- Datatables -->
         <link rel="stylesheet" href="<?php echo base_url('vendors/DataTables/datatables.min.css') ?>">
         <!-- PNotify -->
@@ -98,6 +100,8 @@
 
         <!-- Import Javascript -->
         <script src="<?php echo base_url('vendors/bootstrap/dist/js/bootstrap.min.js') ?>"></script>
+        <script src="<?php echo base_url('vendors/bootstrap-multiselect/bootstrap-multiselect.js') ?>"></script>
+        <script src="<?php echo base_url('vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js') ?>"></script>
         <script src="<?php echo base_url('vendors/fastclick/lib/fastclick.js') ?>"></script>
         <script src="<?php echo base_url('vendors/nprogress/nprogress.js') ?>"></script>
         <script src="<?php echo base_url('vendors/Chart.js/dist/Chart.min.js') ?>"></script>

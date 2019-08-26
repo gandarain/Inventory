@@ -25,13 +25,49 @@
 					<li><a href="<?php echo base_url('dashboard') ?>"><i class="fas fa-tachometer-alt"></i> <?php echo lang('dashboard') ?></a></li>
 					<li><a><i class="fas fa-user-secret"></i> <?php echo lang('master') ?> <span class="fas fa-chevron-down pull-right"></span></a>
 						<ul class="nav child_menu">
-							<li><a href="<?php echo base_url('user') ?>"><?php echo lang('user') ?></a></li>
+							<!-- <li><a href="<?php echo base_url('user') ?>"><?php echo lang('user') ?></a></li>
 							<li><a href="<?php echo base_url('menu') ?>"><?php echo lang('menu') ?></a></li>
 							<li><a href="<?php echo base_url('group') ?>"><?php echo lang('groups') ?></a></li>
-							<li><a href="<?php echo base_url('user/read_type') ?>"><?php echo lang('user_type') ?></a></li>
+							<li><a href="<?php echo base_url('user/read_type') ?>"><?php echo lang('user_type') ?></a></li> -->
+							<li>
+								<a href="<?php echo base_url('store') ?>">
+									<i class="fas fa-store-alt"></i>
+									<?php echo lang('store') ?>
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('category') ?>">
+									<i class="fas fa-tags"></i>
+									<?php echo lang('category') ?>
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('product') ?>">
+									<i class="fas fa-shopping-cart"></i>
+									<?php echo lang('product') ?>
+								</a>
+							</li>
 						</ul>
 					</li>
-					<li><a><i class="fas fa-edit"></i> Home <span class="fas fa-chevron-down pull-right"></span></a>
+					<li><a href="<?php echo base_url('order') ?>"><i class="fas fa-cart-arrow-down"></i> <?php echo lang('order') ?></a></li>
+					<li><a href="<?php echo base_url('report') ?>"><i class="fas fa-clipboard-check"></i> <?php echo lang('report') ?></a></li>
+					<li><a><i class="fas fa-percentage"></i> <?php echo lang('percentage') ?> <span class="fas fa-chevron-down pull-right"></span></a>
+						<ul class="nav child_menu">
+							<li>
+								<a href="<?php echo base_url('percentage') ?>">
+									<i class="fas fa-store-alt"></i>
+									<?php echo lang('product') ?>
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('percentage/order') ?>">
+									<i class="fas fa-shopping-cart"></i>
+									<?php echo lang('order') ?>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!-- <li><a><i class="fas fa-edit"></i> Home <span class="fas fa-chevron-down pull-right"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('main/simple_template') ?>">Simple Page</a></li>
 						</ul>
@@ -56,7 +92,7 @@
 							<li><a href="#level3">Menu 3</a></li>
 						</ul>
 					</li>
-					<li><a href="https://github.com/puikinsh/gentelella"><i class="fas fa-external-link-square"></i> Gentelella <span class="label label-info pull-right">Learn More</span></a></li>
+					<li><a href="https://github.com/puikinsh/gentelella"><i class="fas fa-external-link-square"></i> Gentelella <span class="label label-info pull-right">Learn More</span></a></li> -->
 				</ul>
 			</div>
 		</div>

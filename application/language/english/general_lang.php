@@ -16,13 +16,17 @@ $lang['allow'] = 'Allowed';
 $lang['birth'] = 'Birthdate';
 $lang['btn_add'] = 'Add';
 $lang['btn_cancel'] = 'Abandon Changes';
+$lang['btn_cancel2'] = 'Cancel';
+$lang['btn_close'] = 'Close';
 $lang['btn_save'] = 'Save';
 $lang['btn_search'] = 'Search';
 $lang['btn_submit'] = 'Submit';
 $lang['btn_update'] = 'Save Changes';
 
 //****** Cc *****//
+$lang['category'] = 'Category';
 $lang['class_name'] = 'Class Name';
+$lang['close'] = 'Close';
 $lang['code'] = 'Code';
 $lang['confirm_password'] = 'Confirm Password';
 $lang['create_account'] = 'Create Account';
@@ -34,8 +38,11 @@ $lang['crud_report'] = 'Report';
 
 //****** Dd *****//
 $lang['dashboard'] = 'Dashboard';
+$lang['date'] = 'Date';
 $lang['date_regist'] = 'Registration Date';
+$lang['decrease'] = 'Decrease';
 $lang['description'] = 'Description';
+$lang['detail'] = 'Detail';
 $lang['dialog_abandon_changes'] = 'Are you sure want to leave this operation?';
 $lang['dialog_delete'] = 'Are you sure want to delete this?';
 $lang['dialog_login'] = 'Already a member?';
@@ -45,11 +52,13 @@ $lang['do_something'] = 'Do something';
 
 //****** Ee *****//
 $lang['email'] = 'Email';
+$lang['error_name'] = 'Name already used';
 
 //****** Ff *****//
 $lang['forgot_password'] = 'Lost your password?';
 $lang['form_login'] = 'Login Form';
 $lang['form_register'] = 'Registration Form';
+$lang['from'] = 'From';
 
 //****** Gg *****//
 $lang['greetings_login'] = 'Welcome back <strong>%s</strong><br>';
@@ -61,6 +70,7 @@ $lang['groups'] = 'Groups';
 $lang['group_access_for_menu'] = 'Group access for %s';
 
 //****** Ii *****//
+$lang['increase'] = 'Increase';
 $lang['info'] = 'Info';
 
 //****** Ll *****//
@@ -96,9 +106,18 @@ $lang['name_full'] = 'Full Name';
 $lang['name_nick'] = 'Nick Name';
 $lang['not_allow'] = 'Not Allowed';
 
+//****** Oo *****//
+$lang['order'] = 'Order';
+
 //****** Pp *****//
 $lang['password'] = 'Password';
+$lang['percentage'] = 'Percentage';
 $lang['phone'] = 'Phone';
+$lang['price'] = 'Price';
+$lang['product'] = 'Product';
+
+//****** Rr *****//
+$lang['report'] = 'Report';
 
 //****** Ss *****//
 $lang['search'] = 'Search';
@@ -107,6 +126,12 @@ $lang['special_privilege'] = 'Special Privilege';
 $lang['status'] = 'Status';
 $lang['status_active'] = 'Active';
 $lang['status_inactive'] = 'Inactive';
+$lang['store'] = 'Store';
+
+//****** Ss *****//
+$lang['to'] = 'To';
+$lang['total'] = 'Total';
+$lang['total_price'] = 'Total Price';
 
 //****** Uu *****//
 $lang['user'] = 'User';
